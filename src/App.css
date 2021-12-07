@@ -1,0 +1,62 @@
+* {
+  --border-color: #ced4da;
+  margin:0;
+}
+
+.image {
+  border-radius: 50%;
+  border: 0.01px solid var(--border-color);
+  height: 100px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  align-self: start;
+  margin-top: 1rem;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: xx-large;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 1rem;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  margin-left: 1rem;
+  color: black;
+}
+
+input {
+  color: black;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-width: thin;
+  border-width: 0 0 1px;
+  border-color: var(--border-color);
+  outline: none;
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+input::placeholder {
+  color: #5e5c5c;
+  font-family: "Raleway";
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+input:focus {
+  border-color: black;
+}
